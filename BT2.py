@@ -1,7 +1,3 @@
-# =============================================
-# HỆ THỐNG THỐNG KÊ SỐ LƯỢNG HỌC VIÊN THEO CHI NHÁNH
-# =============================================
-
 so_chi_nhanh = int(input("Nhập số lượng chi nhánh: "))
 
 for cn in range(1, so_chi_nhanh + 1):
@@ -15,5 +11,9 @@ for cn in range(1, so_chi_nhanh + 1):
         hoc_vien = int(input(f"    Lớp {lop} có: "))
         total_students += hoc_vien
     
+    
+    # bap cap
     # Hiển thị kết quả của chi nhánh
     print(f"Chi nhánh {cn}: {total_students} học viên\n")
+    
+    
